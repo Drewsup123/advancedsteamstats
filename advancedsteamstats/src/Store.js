@@ -3,6 +3,7 @@ import React from 'react'
 export const Store = React.createContext(); //creates context object
 
 const initialState = {
+    loggedIn: false,
 }
 
 function reducer(state, action) {
